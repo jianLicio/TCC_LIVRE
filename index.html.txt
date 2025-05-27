@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualizações Interativas - TCC</title>
+</head>
+<body>
+    <h1>Gráficos Interativos - TCC</h1>
+    <ul>
+        <li><a href="grafico_2d_tsne_t1_desvio.html">Gráfico 2D t-SNE T1</a></li>
+        <li><a href="grafico_2d_tsne_t2_desvio.html">Gráfico 2D t-SNE T2</a></li>
+        <li><a href="grafico_2d_tsne_t4_desvio.html">Gráfico 2D t-SNE T4</a></li>
+        <li><a href="grafico_3d_tsne_desvio_padrao.html">Gráfico 3D t-SNE Desvio Padrão</a></li>
+        <li><a href="grafico_3d_mds_desvio_padrao.html">Gráfico 3D MDS Desvio Padrão</a></li>
+        <li><a href="grafico_t1_desvio.html">Gráfico Completo T1</a></li>
+        <li><a href="grafico_t2_desvio.html">Gráfico Completo T2</a></li>
+        <li><a href="grafico_t4_desvio.html">Gráfico Completo T4</a></li>
+    </ul>
+</body>
+</html>
