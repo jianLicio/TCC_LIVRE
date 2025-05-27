@@ -8,7 +8,7 @@
             background-color: #f4f4f4;
             font-family: Arial, sans-serif;
             color: #333;
-            max-width: 900px;
+            max-width: 1000px;
             margin: 50px auto;
             padding: 20px;
             box-shadow: 0 0 15px rgba(0,0,0,0.1);
@@ -20,6 +20,21 @@
             text-align: center;
             color: #004d99;
             margin-bottom: 40px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .column h2 {
+            text-align: center;
+            color: #004d99;
         }
 
         ul {
@@ -40,6 +55,8 @@
             border: 2px solid #0077cc;
             border-radius: 8px;
             transition: all 0.3s ease;
+            width: 100%;
+            text-align: center;
         }
 
         a:hover {
@@ -53,27 +70,38 @@
 <body>
 
     <h1>Gráficos Interativos - TCC</h1>
-    <ul>
-        <!-- Gráficos t-SNE 2D -->
-        <li><a href="grafico_2d_tsne_t1_desvio.html">Gráfico 2D t-SNE - T1 (Desvio Padrão)</a></li>
-        <li><a href="grafico_2d_tsne_t2_desvio.html">Gráfico 2D t-SNE - T2 (Desvio Padrão)</a></li>
-        <li><a href="grafico_2d_tsne_t4_desvio.html">Gráfico 2D t-SNE - T4 (Desvio Padrão)</a></li>
 
-        <!-- Gráficos MDS 2D -->
-        <li><a href="grafico_t1_desvio.html">Gráfico 2D MDS - T1 (Desvio Padrão)</a></li>
-        <li><a href="grafico_t2_desvio.html">Gráfico 2D MDS - T2 (Desvio Padrão)</a></li>
-        <li><a href="grafico_t4_desvio.html">Gráfico 2D MDS - T4 (Desvio Padrão)</a></li>
+    <div class="container">
+        <div class="column">
+            <h2>Projeções 2D</h2>
+            <ul>
+                <!-- Gráficos t-SNE 2D -->
+                <li><a href="grafico_2d_tsne_t1_desvio.html">t-SNE 2D - T1 (Desvio Padrão)</a></li>
+                <li><a href="grafico_2d_tsne_t2_desvio.html">t-SNE 2D - T2 (Desvio Padrão)</a></li>
+                <li><a href="grafico_2d_tsne_t4_desvio.html">t-SNE 2D - T4 (Desvio Padrão)</a></li>
 
-        <!-- Gráficos t-SNE 3D -->
-        <li><a href="grafico_3d_tsne_t1_desvio.html">Gráfico 3D t-SNE - T1 (Desvio Padrão)</a></li>
-        <li><a href="grafico_3d_tsne_t2_desvio.html">Gráfico 3D t-SNE - T2 (Desvio Padrão)</a></li>
-        <li><a href="grafico_3d_tsne_t4_desvio.html">Gráfico 3D t-SNE - T4 (Desvio Padrão)</a></li>
+                <!-- Gráficos MDS 2D -->
+                <li><a href="grafico_t1_desvio.html">MDS 2D - T1 (Desvio Padrão)</a></li>
+                <li><a href="grafico_t2_desvio.html">MDS 2D - T2 (Desvio Padrão)</a></li>
+                <li><a href="grafico_t4_desvio.html">MDS 2D - T4 (Desvio Padrão)</a></li>
+            </ul>
+        </div>
 
-        <!-- Gráficos MDS 3D -->
-        <li><a href="grafico_3d_mds_t1_desvio.html">Gráfico 3D MDS - T1 (Desvio Padrão)</a></li>
-        <li><a href="grafico_3d_mds_t2_desvio.html">Gráfico 3D MDS - T2 (Desvio Padrão)</a></li>
-        <li><a href="grafico_3d_mds_t4_desvio.html">Gráfico 3D MDS - T4 (Desvio Padrão)</a></li>
-    </ul>
+        <div class="column">
+            <h2>Projeções 3D</h2>
+            <ul>
+                <!-- Gráficos t-SNE 3D -->
+                <li><a href="grafico_3d_tsne_t1_desvio.html">t-SNE 3D - T1 (Desvio Padrão)</a></li>
+                <li><a href="grafico_3d_tsne_t2_desvio.html">t-SNE 3D - T2 (Desvio Padrão)</a></li>
+                <li><a href="grafico_3d_tsne_t4_desvio.html">t-SNE 3D - T4 (Desvio Padrão)</a></li>
+
+                <!-- Gráficos MDS 3D -->
+                <li><a href="grafico_3d_mds_t1_desvio.html">MDS 3D - T1 (Desvio Padrão)</a></li>
+                <li><a href="grafico_3d_mds_t2_desvio.html">MDS 3D - T2 (Desvio Padrão)</a></li>
+                <li><a href="grafico_3d_mds_t4_desvio.html">MDS 3D - T4 (Desvio Padrão)</a></li>
+            </ul>
+        </div>
+    </div>
 
 </body>
 </html>

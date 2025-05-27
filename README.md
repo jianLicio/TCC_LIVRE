@@ -1,2 +1,3 @@
-# Atenção!
-### No momento é necessário baixar os arquivos e então abri-los atravez do navegador
+## 🔗 Acesse aqui os gráficos interativos:
+
+👉 [Visualizações Interativas do TCC](https://jianlicio.github.io/TCC_LIVRE/)
