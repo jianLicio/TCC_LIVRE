@@ -3,18 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Visualizações Interativas - TCC</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            color: #333;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            background: white;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #004d99;
+            margin-bottom: 40px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0077cc;
+            font-weight: bold;
+            padding: 10px 15px;
+            display: inline-block;
+            border: 2px solid #0077cc;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #0077cc;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
+
     <h1>Gráficos Interativos - TCC</h1>
     <ul>
-        <li><a href="grafico_2d_tsne_t1_desvio.html">Gráfico 2D t-SNE T1</a></li>
-        <li><a href="grafico_2d_tsne_t2_desvio.html">Gráfico 2D t-SNE T2</a></li>
-        <li><a href="grafico_2d_tsne_t4_desvio.html">Gráfico 2D t-SNE T4</a></li>
-        <li><a href="grafico_3d_tsne_desvio_padrao.html">Gráfico 3D t-SNE Desvio Padrão</a></li>
-        <li><a href="grafico_3d_mds_desvio_padrao.html">Gráfico 3D MDS Desvio Padrão</a></li>
-        <li><a href="grafico_t1_desvio.html">Gráfico Completo T1</a></li>
-        <li><a href="grafico_t2_desvio.html">Gráfico Completo T2</a></li>
-        <li><a href="grafico_t4_desvio.html">Gráfico Completo T4</a></li>
+        <!-- Gráficos t-SNE 2D -->
+        <li><a href="grafico_2d_tsne_t1_desvio.html">Gráfico 2D t-SNE - T1 (Desvio Padrão)</a></li>
+        <li><a href="grafico_2d_tsne_t2_desvio.html">Gráfico 2D t-SNE - T2 (Desvio Padrão)</a></li>
+        <li><a href="grafico_2d_tsne_t4_desvio.html">Gráfico 2D t-SNE - T4 (Desvio Padrão)</a></li>
+
+        <!-- Gráficos MDS 2D -->
+        <li><a href="grafico_t1_desvio.html">Gráfico 2D MDS - T1 (Desvio Padrão)</a></li>
+        <li><a href="grafico_t2_desvio.html">Gráfico 2D MDS - T2 (Desvio Padrão)</a></li>
+        <li><a href="grafico_t4_desvio.html">Gráfico 2D MDS - T4 (Desvio Padrão)</a></li>
+
+        <!-- Gráficos t-SNE 3D -->
+        <li><a href="grafico_3d_tsne_t1_desvio.html">Gráfico 3D t-SNE - T1 (Desvio Padrão)</a></li>
+        <li><a href="grafico_3d_tsne_t2_desvio.html">Gráfico 3D t-SNE - T2 (Desvio Padrão)</a></li>
+        <li><a href="grafico_3d_tsne_t4_desvio.html">Gráfico 3D t-SNE - T4 (Desvio Padrão)</a></li>
+
+        <!-- Gráficos MDS 3D -->
+        <li><a href="grafico_3d_mds_t1_desvio.html">Gráfico 3D MDS - T1 (Desvio Padrão)</a></li>
+        <li><a href="grafico_3d_mds_t2_desvio.html">Gráfico 3D MDS - T2 (Desvio Padrão)</a></li>
+        <li><a href="grafico_3d_mds_t4_desvio.html">Gráfico 3D MDS - T4 (Desvio Padrão)</a></li>
     </ul>
+
 </body>
 </html>
